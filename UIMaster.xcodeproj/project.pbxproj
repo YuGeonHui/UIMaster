@@ -56,15 +56,23 @@
 		B6387A0F28BF6DED001DBD5E /* UIMaster */ = {
 			isa = PBXGroup;
 			children = (
+				B654DB4428CA2DF4009EEF4C /* InfiniteScroll */,
 				B6387A1028BF6DED001DBD5E /* AppDelegate.swift */,
 				B6387A1228BF6DED001DBD5E /* SceneDelegate.swift */,
-				B6387A1428BF6DED001DBD5E /* ScrollInfiniteViewController.swift */,
 				B6387A1628BF6DED001DBD5E /* Main.storyboard */,
 				B6387A1928BF6DEE001DBD5E /* Assets.xcassets */,
 				B6387A1B28BF6DEE001DBD5E /* LaunchScreen.storyboard */,
 				B6387A1E28BF6DEE001DBD5E /* Info.plist */,
 			);
 			path = UIMaster;
+			sourceTree = "<group>";
+		};
+		B654DB4428CA2DF4009EEF4C /* InfiniteScroll */ = {
+			isa = PBXGroup;
+			children = (
+				B6387A1428BF6DED001DBD5E /* ScrollInfiniteViewController.swift */,
+			);
+			path = InfiniteScroll;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
