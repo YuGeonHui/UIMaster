@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ScrollInfiniteViewController: UIViewController {
     
     private let rollingStringData: [String] = ["월요일", "화요일", "수요일", "목요일", "금요일", "토요일", "일요일"]
     private var selectedIndex = 0
@@ -38,7 +38,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+extension ScrollInfiniteViewController: UIPickerViewDelegate, UIPickerViewDataSource {
     
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
