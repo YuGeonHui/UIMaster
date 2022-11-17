@@ -6,4 +6,6 @@ Custom UI를 정리해놓는 Repo 입니다.
 
 ![Simulator Screen Recording - iPhone 13 - 2022-09-08 at 23 02 08](https://user-images.githubusercontent.com/96224311/189142398-1e05e1ba-b07c-475d-9b13-f13da2a1ea08.gif)
 
-2. 
+2. 유튜브 플레이어 재생하기 
+- 유튜브 플레이를 앱 내에서 보여주는 뷰 입니다.
+
