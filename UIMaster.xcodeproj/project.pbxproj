@@ -13,6 +13,8 @@
 		B6387A1828BF6DED001DBD5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6387A1628BF6DED001DBD5E /* Main.storyboard */; };
 		B6387A1A28BF6DEE001DBD5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6387A1928BF6DEE001DBD5E /* Assets.xcassets */; };
 		B6387A1D28BF6DEE001DBD5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6387A1B28BF6DEE001DBD5E /* LaunchScreen.storyboard */; };
+		B6DF4CE72925CF660035D18E /* WKYoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6DF4CE62925CF660035D18E /* WKYoutubeViewController.swift */; };
+		B6DF4CE92925CF780035D18E /* WKYoutubeViewStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DF4CE82925CF780035D18E /* WKYoutubeViewStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B6387A1928BF6DEE001DBD5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6387A1C28BF6DEE001DBD5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6387A1E28BF6DEE001DBD5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DF4CE62925CF660035D18E /* WKYoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKYoutubeViewController.swift; sourceTree = "<group>"; };
+		B6DF4CE82925CF780035D18E /* WKYoutubeViewStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WKYoutubeViewStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		B6387A0F28BF6DED001DBD5E /* UIMaster */ = {
 			isa = PBXGroup;
 			children = (
+				B6DF4CE52925CF4B0035D18E /* YoutubeView */,
 				B654DB4428CA2DF4009EEF4C /* InfiniteScroll */,
 				B6387A1028BF6DED001DBD5E /* AppDelegate.swift */,
 				B6387A1228BF6DED001DBD5E /* SceneDelegate.swift */,
@@ -73,6 +78,15 @@
 				B6387A1428BF6DED001DBD5E /* ScrollInfiniteViewController.swift */,
 			);
 			path = InfiniteScroll;
+			sourceTree = "<group>";
+		};
+		B6DF4CE52925CF4B0035D18E /* YoutubeView */ = {
+			isa = PBXGroup;
+			children = (
+				B6DF4CE62925CF660035D18E /* WKYoutubeViewController.swift */,
+				B6DF4CE82925CF780035D18E /* WKYoutubeViewStoryboard.storyboard */,
+			);
+			path = YoutubeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DF4CE92925CF780035D18E /* WKYoutubeViewStoryboard.storyboard in Resources */,
 				B6387A1D28BF6DEE001DBD5E /* LaunchScreen.storyboard in Resources */,
 				B6387A1A28BF6DEE001DBD5E /* Assets.xcassets in Resources */,
 				B6387A1828BF6DED001DBD5E /* Main.storyboard in Resources */,
@@ -148,6 +163,7 @@
 			files = (
 				B6387A1528BF6DED001DBD5E /* ScrollInfiniteViewController.swift in Sources */,
 				B6387A1128BF6DED001DBD5E /* AppDelegate.swift in Sources */,
+				B6DF4CE72925CF660035D18E /* WKYoutubeViewController.swift in Sources */,
 				B6387A1328BF6DED001DBD5E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
